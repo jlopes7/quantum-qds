@@ -1,0 +1,51 @@
+Piece-Wise Constant Potential Barriers Tool
+
+ The tool calculates the transmission and the 
+reflection coefficient of a five, seven, nine, 
+eleven and 2n-segment piece-wise constant potential 
+energy profile.  By default double, triple, quad, 
+quintuple, and n barrier structures can be 
+easily modeled where users can specify the height 
+of the potentials and the widths of the regions.
+
+Quantum mechanical features such as resonance 
+transmision and reflection can be easily explored.
+Transmission and reflection coefficients are calculated 
+using semi-analytic expressions assuming perfect parabolic 
+dispersons in a time-independent Schroedinger equation approach.
+
+Tight-Binding Lattice Constant must be at least 10 times
+smaller than barrier width and well width.
+Lattice Constant is adjusted to
+ 0.2 nm 
+  Time elapsed= 10.1    s 
+Homogeneous energy grid has 220 nodes.
+Inhomogeneous energy grid has 17085 nodes.
+===========================
+
+Resonance Finding Log
+
+Resonance | Resonance Energy | Transmission | Reflection 
+1         0.093080 eV        0.998727       0.001273
+2         0.093762 eV        1.000000       0.000000
+3         0.094797 eV        0.999396       0.000604
+4         0.096045 eV        0.999030       0.000970
+5         0.097319 eV        0.999473       0.000527
+6         0.098423 eV        0.999977       0.000023
+7         0.099173 eV        0.999239       0.000761
+8         0.360239 eV        0.998273       0.001727
+9         0.363691 eV        0.999952       0.000048
+10         0.368984 eV        0.999335       0.000665
+11         0.375430 eV        0.999976       0.000024
+12         0.382148 eV        0.999213       0.000787
+13         0.388105 eV        0.999981       0.000019
+14         0.392227 eV        0.999922       0.000078
+15         0.754883 eV        0.996991       0.003009
+16         0.765625 eV        0.999567       0.000433
+17         0.782188 eV        0.999344       0.000656
+18         0.803125 eV        0.999900       0.000100
+19         0.825938 eV        0.999700       0.000300
+20         0.847500 eV        0.999997       0.000003
+21         0.863672 eV        0.997867       0.002133
+    Total time= 10.5    s
+
